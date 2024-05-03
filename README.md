@@ -76,6 +76,7 @@ Through this algorithm, we were able to create a dataframe that contained the pr
 - Create stricter boundaries and criterias
 - Create more data visualization graphs to help with visual aid analysis
 - Do better performance comparisons and actually validate my findings
+- Try XGBoost
   
 # How to Reproduce Results
 ## OVERVIEW OF FILES IN REPOSITORY
