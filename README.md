@@ -68,6 +68,16 @@ Through this algorithm, we were able to create a dataframe that contained the pr
 - Data Preprocessing.ipynb: notebook for all data cleaning and preprocessing procedures
 - Training and Testing.ipynb: notebook for all training and testing procedures
 
+## PACKAGES USED
+- pandas as pd
+- numpy as np
+- matplotlib.pyplot as plt
+- seaborn as sns
+- from sklearn.model_selection import train_test_split
+- from sklearn.linear_model import LogisticRegression
+- from sklearn.ensemble import GradientBoostingClassifier
+- from sklearn.impute import SimpleImputer
+
 ## SOFTWARE SETUP
 For this project, I used Python3.11 and JupyterLab via the Anaconda app. 
 
