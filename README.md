@@ -20,13 +20,18 @@ The data was 240.06 MB and contained 3 .zip files named "train.csv" for the trai
 
 
 ### Data Preprocessing and Cleaning
+This is what the data looks like before preprocessing and cleaning. A lot of unecessary variables and null values:
+
+<img width="776" alt="Screen Shot 2024-05-03 at 11 55 18 AM" src="https://github.com/mariahncornelio/DATA-3402-Kaggle-Project/assets/143844081/ae2a31fa-127a-492d-982f-5f978c06d4a3">
+
+
 - Translate the column names into English based on their respective data description found on the original challenge forum (i.e.: fecha_dato=calendar_date)
 - Change columns to appropriate dates (dates to date/time, numbers/floats to integers, objects to strings, etc.
 - Dropped the columns with the most amount of null values (last primary date and spouse index)
 - Cannot just remove rows containing null values, therefore filled in empty cells in categorical values with the mode and empty cells in numerical values with the mean. If a binary variable column, filled it in with 0's
 
 ### Data Viz
-First I defined boundaries such as income and age group so that it would be more efficient that way to aggregate the data by. 
+First I defined boundaries such as income and age group so that it would be more efficient that way to aggregate the data by.
 
 <img width="701" alt="Screen Shot 2024-05-03 at 11 42 30 AM" src="https://github.com/mariahncornelio/DATA-3402-Kaggle-Project/assets/143844081/1887d3fb-817c-49dd-9cf3-34aef39633a1">
 
