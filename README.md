@@ -26,7 +26,12 @@ The data was 240.06 MB and contained 3 .zip files named "train.csv" for the trai
 - Cannot just remove rows containing null values, therefore filled in empty cells in categorical values with the mode and empty cells in numerical values with the mean. If a binary variable column, filled it in with 0's
 
 ### Data Viz
-First I defined boundaries such as income and age group so that it would be more efficient that way to aggregate the data by. Next, using the item-based recommendation algorithm based on sales frequency (amount of times it shows up), a table with a summary of each product is shown:
+First I defined boundaries such as income and age group so that it would be more efficient that way to aggregate the data by. 
+
+<img width="701" alt="Screen Shot 2024-05-03 at 11 42 30 AM" src="https://github.com/mariahncornelio/DATA-3402-Kaggle-Project/assets/143844081/1887d3fb-817c-49dd-9cf3-34aef39633a1">
+
+
+Next, using the item-based recommendation algorithm based on sales frequency (amount of times it shows up), a table with a summary of each product is shown:
 
 <img width="374" alt="Screen Shot 2024-05-03 at 3 48 30 AM" src="https://github.com/mariahncornelio/DATA3402.Spring.2024.Fork/assets/143844081/72f53f1c-8fb3-48d6-ad34-9e12e19b9359">
 
