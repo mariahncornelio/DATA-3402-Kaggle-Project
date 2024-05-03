@@ -75,6 +75,7 @@ Through this algorithm, we were able to create a dataframe that contained the pr
 - Try a different machine learning approach like SVM (but this takes forever)... maybe into two groups like popular and non-popular products based on these criterias
 - Create stricter boundaries and criterias
 - Create more data visualization graphs to help with visual aid analysis
+- Do better performance comparisons and actually validate my findings
   
 # How to Reproduce Results
 ## OVERVIEW OF FILES IN REPOSITORY
