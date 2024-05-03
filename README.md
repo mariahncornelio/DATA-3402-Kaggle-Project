@@ -1,5 +1,5 @@
 # Santander Product Recommendation KAGGLE PROJECT Solutions - PRACTICE 
-This repository holds an attempt to apply machine learning and prediction-recommendation algorithms to Santander Bank's customer database using data from "Santander Product Recommendation"'zs Kaggle challenge: (https://www.kaggle.com/competitions/santander-product-recommendation/data?select=train_ver2.csv.zip).
+This repository holds an attempt to apply machine learning and prediction-recommendation algorithms to Santander Bank's customer database using data from "Santander Product Recommendation"'s Kaggle challenge: (https://www.kaggle.com/competitions/santander-product-recommendation/data?select=train_ver2.csv.zip).
 
 # Overview
 In this Kaggle Project, I was tasked to predict what a customer would buy and also recommend the top products they would want to buy based on things such as their previous purchases and customer backgorund and history from Santander Spain's customer database by the end of May 28, 2016. The approach in this repository includes machine learning algorithms such as logistic regression and gradient boosting decision tree and also item-based popularity recommendation based on frequency. The best model was able to come up with the top product recommended to the customer as well as their top 3 products based on the prediction score. 
