@@ -1,4 +1,4 @@
-# SANTANDER PRODUCT RECOMMENDATION KAGGLE PROJECT SOLUTIONS - PRACTICE 
+# Santander Product Recommendation KAGGLE PROJECT Solutions - PRACTICE 
 This repository holds an attempt to apply machine learning and prediction-recommendation algorithms to Santander Bank's customer database using data from "Santander Product Recommendation"'zs Kaggle challenge: (https://www.kaggle.com/competitions/santander-product-recommendation/data?select=train_ver2.csv.zip).
 
 # Overview
@@ -8,6 +8,14 @@ In this Kaggle Project, I was tasked to predict what a customer would buy and al
 ## DATA
 ### Dataset Description
 The data was 240.06 MB and contained 3 .zip files named "train.csv" for the training set, "test.csv" for the test set, and "sample_submission.csv" which gave a sample submission file in the correct format. The training set contains 13.6M rows and 48 columns and the testing set contains 929K rows and 24 columns. For the data fields, the columns were all in Spanish meaning I had to translate it to it's respective English description. The contents of the data spans from January 28, 2015 and lasts up until May 28, 2016 which is about 1.5 years of the customers behavior data from Santander Bank in Spain. 
+
+### First Look at Data
+
+<img width="782" alt="Screen Shot 2024-05-03 at 11 07 02 AM" src="https://github.com/mariahncornelio/DATA-3402-Kaggle-Project/assets/143844081/cd160c72-152a-400c-8292-6e164d36b56f">
+
+<img width="864" alt="Screen Shot 2024-05-03 at 11 07 22 AM" src="https://github.com/mariahncornelio/DATA-3402-Kaggle-Project/assets/143844081/9120969f-64ff-436c-806d-8cf06a2f4942">
+
+
 
 ### Data Preprocessing and Cleaning
 - Translate the column names into English based on their respective data description found on the original challenge forum (i.e.: fecha_dato=calendar_date)
